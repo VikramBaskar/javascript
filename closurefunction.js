@@ -6,4 +6,5 @@ function outerfunction(){
     }
     return innerfunction()
 }
-outerfunction()
+let innerfun = outerfunction()
+ 
